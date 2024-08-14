@@ -8,7 +8,7 @@ const { types } = require('./types.json')
    * @typedef {{type: string; scope: string; subject: string; body: string; isBreaking: boolean; breakingBody: string; breaking: string; isIssueAffected: boolean; issuesBody: string; issues: string;}} Answers
    */
 
-/** @type import('cz-format-extension').Config<Answers> */
+/** @type import('cz-commands-extension').Config<Answers> */
 module.exports = {
   questions({inquirer}) {
     return [

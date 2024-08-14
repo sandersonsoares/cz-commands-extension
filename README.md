@@ -1,13 +1,15 @@
-<p align="center"><img width="300px" height="280px" src="https://raw.githubusercontent.com/tyankatsu0105/cz-format-extension/master/assets/logo.png" alt="cz format extension"></p>
+<p align="center"><img width="300px" height="280px" src="https://raw.githubusercontent.com/tyankatsu0105/cz-commands-extension/main/assets/logo.png" alt="cz format extension"></p>
 
-<h2 align="center">cz-format-extension</h2>
+> ⚠️ This library is a fork of [cz-format-extension](https://github.com/sandersonsoares/cz-format-extension)
+
+<h2 align="center">cz-commands-extension</h2>
 <p align="center">
   Extensible <a href="https://github.com/commitizen/cz-cli">Commitizen</a>'s format
 </p>
 
 <p align="center">
-  <a title="Current version" href="https://badge.fury.io/js/cz-format-extension" rel="nofollow">
-    <img src="https://badge.fury.io/js/cz-format-extension.svg?style=flat">
+  <a title="Current version" href="https://badge.fury.io/js/cz-commands-extension" rel="nofollow">
+    <img src="https://badge.fury.io/js/cz-commands-extension.svg?style=flat">
   </a>
   <a title="deploy" href="https://github.com/algolia/shipjs" rel="nofollow">
     <img src="https://img.shields.io/badge/deploy-🛳%20Ship.js-blue?style=flat">
@@ -20,7 +22,7 @@
 ## Usage
 
 ```
-npm install -D commitizen cz-format-extension
+npm install -D commitizen cz-commands-extension
 ```
 
 Make `.czrc` or add `config` fields into package.json
@@ -29,7 +31,7 @@ Make `.czrc` or add `config` fields into package.json
 
 ```json
 {
-  "path": "cz-format-extension"
+  "path": "cz-commands-extension"
 }
 ```
 
@@ -39,7 +41,7 @@ Make `.czrc` or add `config` fields into package.json
 {
   "config": {
     "commitizen": {
-      "path": "cz-format-extension"
+      "path": "cz-commands-extension"
     }
   }
 }
@@ -76,7 +78,7 @@ module.exports = {
   - return
     - string
 
-We prepare [the example](https://github.com/tyankatsu0105/cz-format-extension/tree/master/example).
+We prepare [the example](https://github.com/sandersonsoares/cz-commands-extension/tree/master/example).
 
 #### Tips: Configuration settings with types
 
@@ -87,7 +89,7 @@ If you love to develop with types, you can use that with `JSDocs`.
  * @typedef {{questionType1: string; questionType2: string}} Answers
  */
 
-/** @type import('cz-format-extension').Config<Answers> */
+/** @type import('cz-commands-extension').Config<Answers> */
 module.exports = {
   questions({inquirer, gitInfo}) {
     return [

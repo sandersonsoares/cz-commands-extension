@@ -1,18 +1,18 @@
 {
-  "name": "cz-format-extension",
-  "version": "1.5.1",
+  "name": "cz-commands-extension",
+  "version": "1.0.0",
   "description": "",
   "keywords": [
     "commitizen",
     "git-cz"
   ],
-  "homepage": "https://github.com/tyankatsu0105/cz-format-extension#readme",
+  "homepage": "https://github.com/sandersonsoares/cz-commands-extension#readme",
   "bugs": {
-    "url": "https://github.com/tyankatsu0105/cz-format-extension/issues"
+    "url": "https://github.com/sandersonsoares/cz-commands-extension/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tyankatsu0105/cz-format-extension.git"
+    "url": "git+https://github.com/sandersonsoares/cz-commands-extension.git"
   },
   "license": "MIT",
   "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com> (https://tyankatsu.netlify.com/)",
@@ -20,6 +20,10 @@
     {
       "name": "camcam-lemon",
       "email": "omega.camcamlemon@gmail.com"
+    },
+    {
+      "name": "sandersonsoares",
+      "email": "sandersonsoaresm@gmail.com"
     }
   ],
   "main": "dist/index.js",
@@ -66,6 +70,6 @@
     "typescript": "^4.5.5"
   },
   "engines": {
-    "node": "^12 || ^14 || ^16 || ^17 || ^18"
+    "node": ">=12"
   }
 }

@@ -2,7 +2,7 @@
    * @typedef {{list: string;}} Answers
    */
 
-/** @type import('cz-format-extension').Config<Answers> */
+/** @type import('cz-commands-extension').Config<Answers> */
 module.exports = {
   questions({inquirer}) {
     return [

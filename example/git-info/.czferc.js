@@ -2,7 +2,7 @@
    * @typedef {{input1: string;input2: string;}} Answers
    */
 
-/** @type import('cz-format-extension').Config<Answers> */
+/** @type import('cz-commands-extension').Config<Answers> */
 module.exports = {
   questions({inquirer, gitInfo}) {
     const ui = new inquirer.ui.BottomBar();
